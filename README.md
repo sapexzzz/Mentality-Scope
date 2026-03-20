@@ -159,11 +159,6 @@ On first launch, the app will request:
 1. Permission to display over other apps
 2. Notification permission (Android 13+)
 
----
-
-## 📄 Archive
-
-Previous documentation versions are stored in `old_data/v1.4.0/`.
 
 ---
 
