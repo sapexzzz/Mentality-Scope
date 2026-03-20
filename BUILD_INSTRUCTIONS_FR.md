@@ -10,7 +10,7 @@
 ### Compilation en ligne de commande
 
 ```bash
-cd /home/mentality/scripts/android_application
+cd ~/scripts/android_application
 
 # APK Debug
 JAVA_HOME=/opt/android-studio/jbr ./gradlew assembleDebug
