@@ -1,0 +1,15 @@
+# Системные папки сборки
+.gradle/
+build/
+captures/
+
+# Настройки IDE (Android Studio / IntelliJ)
+.idea/
+*.iml
+.vscode/
+
+# Локальные конфиги (там может быть ваш путь к SDK)
+local.properties
+
+# Логи и временные файлы
+*.log
