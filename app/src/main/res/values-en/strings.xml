@@ -65,9 +65,11 @@
     <string name="settings_restart_later">Later</string>
     <string name="settings_about_title">About</string>
     <string name="settings_version_label">Version</string>
-    <string name="settings_version">1.4.0</string>
+    <string name="settings_version">1.5.0</string>
     <string name="settings_developer">Developer</string>
     <string name="settings_developer_name">Mentality Team</string>
+    <string name="settings_github_label">Source code</string>
+    <string name="settings_github_url">GitHub</string>
     <string name="settings_data_title">Data</string>
 
     <!-- Dark mode options -->
@@ -85,6 +87,7 @@
     <string name="language_system">System</string>
     <string name="language_russian">Russian</string>
     <string name="language_english">English</string>
+    <string name="language_french">French</string>
 
     <!-- Navigation -->
     <string name="nav_home">Home</string>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mentality Scope</string>
+    <string name="app_description">Aim helper for mobile shooters</string>
+
+    <!-- Home Screen -->
+    <string name="home_activate_crosshair">Activate crosshair</string>
+    <string name="home_settings_title">Settings</string>
+    <string name="home_size_label">Size</string>
+    <string name="home_thickness_label">Thickness</string>
+    <string name="home_alpha_label">Transparency</string>
+    <string name="home_color_label">Color</string>
+    <string name="home_style_label">Style</string>
+    <string name="home_line_length_label">Line length</string>
+    <string name="home_gap_size_label">Gap from center</string>
+    <string name="home_color_white">White</string>
+    <string name="home_color_red">Red</string>
+    <string name="home_color_green">Green</string>
+    <string name="home_color_blue">Blue</string>
+    <string name="home_color_yellow">Yellow</string>
+    <string name="home_color_purple">Purple</string>
+
+    <!-- Style names -->
+    <string name="style_dot">Dot</string>
+    <string name="style_crosshair">Crosshair</string>
+    <string name="style_circle">Circle</string>
+
+    <!-- Configs Screen -->
+    <string name="configs_presets_title">Built-in Presets</string>
+    <string name="configs_custom_title">My Configs</string>
+    <string name="configs_save_button">Save</string>
+    <string name="configs_empty">No saved configs</string>
+    <string name="configs_save_dialog_title">Save Config</string>
+    <string name="configs_save_dialog_hint">Config name</string>
+    <string name="configs_load_button">Use</string>
+    <string name="configs_delete_title">Delete config?</string>
+    <string name="configs_delete_message">This cannot be undone.</string>
+    <string name="configs_save_error">Enter a config name</string>
+    <string name="configs_export_button">Export</string>
+    <string name="configs_export_select_title">Select Configs</string>
+    <string name="configs_export_select_hint">Check configs to export</string>
+    <string name="configs_import_button">Import</string>
+    <string name="configs_export_filename">MentalityScope_configs</string>
+    <string name="configs_export_success">Configs saved</string>
+    <string name="configs_import_success">Imported: %d configs</string>
+    <string name="configs_import_error">Error importing file</string>
+
+    <!-- Actions -->
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_basic_title">General</string>
+    <string name="settings_autostart_title">Autostart on boot</string>
+    <string name="settings_autostart_subtitle">Start service when the phone turns on</string>
+    <string name="settings_appearance_title">Appearance</string>
+    <string name="settings_theme_color">App color</string>
+    <string name="settings_language_title">Language</string>
+    <string name="settings_language_subtitle">Interface language</string>
+    <string name="settings_language_restart_hint">Restart the app to apply changes</string>
+    <string name="settings_restart_dialog_title">Restart?</string>
+    <string name="settings_restart_dialog_message">App restart is required to apply the language</string>
+    <string name="settings_restart_now">Restart</string>
+    <string name="settings_restart_later">Later</string>
+    <string name="settings_about_title">About</string>
+    <string name="settings_version_label">Version</string>
+    <string name="settings_version">1.4.0</string>
+    <string name="settings_developer">Developer</string>
+    <string name="settings_developer_name">Mentality Team</string>
+    <string name="settings_data_title">Data</string>
+
+    <!-- Dark mode options -->
+    <string name="settings_dark_mode_label">Theme</string>
+    <string name="dark_mode_system">System</string>
+    <string name="dark_mode_light">Light</string>
+    <string name="dark_mode_dark">Dark</string>
+    <string name="dark_mode_amoled">AMOLED</string>
+
+    <!-- Circle crosshair extras -->
+    <string name="home_circle_center_cross">Center cross</string>
+    <string name="home_circle_cross_size">Cross size</string>
+
+    <!-- Language names -->
+    <string name="language_system">System</string>
+    <string name="language_russian">Russian</string>
+    <string name="language_english">English</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_configs">Configs</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Notifications -->
+    <string name="notification_title">Mentality Scope</string>
+    <string name="notification_text">Crosshair active</string>
+    <string name="notification_hide">Hide crosshair</string>
+    <string name="notification_show">Show crosshair</string>
+    <string name="notification_open_app">Open app</string>
+</resources>

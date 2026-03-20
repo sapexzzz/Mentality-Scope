@@ -61,6 +61,7 @@ class MainActivity : AppCompatActivity() {
                 val localeList = when (lang) {
                     "ru" -> LocaleListCompat.forLanguageTags("ru")
                     "en" -> LocaleListCompat.forLanguageTags("en")
+                    "fr" -> LocaleListCompat.forLanguageTags("fr")
                     else -> LocaleListCompat.getEmptyLocaleList()
                 }
                 AppCompatDelegate.setApplicationLocales(localeList)

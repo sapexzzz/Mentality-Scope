@@ -1,6 +1,8 @@
 package com.mentality.gamescope.ui.screen
 
 import android.app.Activity
+import android.content.Intent
+import android.net.Uri
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -101,6 +103,24 @@ fun SettingsScreen(viewModel: CrosshairViewModel) {
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     SettingsInfoRow(stringResource(R.string.settings_version_label), stringResource(R.string.settings_version))
                     SettingsInfoRow(stringResource(R.string.settings_developer), stringResource(R.string.settings_developer_name))
+                    Divider(modifier = Modifier.padding(vertical = 4.dp))
+                    val ctx = LocalContext.current
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Text(stringResource(R.string.settings_github_label), style = MaterialTheme.typography.bodyMedium)
+                        TextButton(
+                            onClick = {
+                                val intent = Intent(Intent.ACTION_VIEW,
+                                    Uri.parse("https://github.com/sapexzzz/Mentality-Scope/tree/main"))
+                                ctx.startActivity(intent)
+                            }
+                        ) {
+                            Text(stringResource(R.string.settings_github_url), style = MaterialTheme.typography.bodyMedium)
+                        }
+                    }
                 }
             }
         }
@@ -241,7 +261,8 @@ private fun LanguagePicker(currentLanguage: String, onLanguageSelected: (String)
     val langs = listOf(
         "SYSTEM" to stringResource(R.string.language_system),
         "ru" to stringResource(R.string.language_russian),
-        "en" to stringResource(R.string.language_english)
+        "en" to stringResource(R.string.language_english),
+        "fr" to stringResource(R.string.language_french)
     )
     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
         langs.forEach { (key, label) ->

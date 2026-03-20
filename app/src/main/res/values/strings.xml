@@ -65,9 +65,11 @@
     <string name="settings_restart_later">Позже</string>
     <string name="settings_about_title">О приложении</string>
     <string name="settings_version_label">Версия</string>
-    <string name="settings_version">1.4.0</string>
+    <string name="settings_version">1.5.0</string>
     <string name="settings_developer">Разработчик</string>
     <string name="settings_developer_name">Mentality Team</string>
+    <string name="settings_github_label">Исходный код</string>
+    <string name="settings_github_url">GitHub</string>
     <string name="settings_data_title">Данные</string>
 
     <!-- Dark mode options -->
@@ -85,6 +87,7 @@
     <string name="language_system">Системный</string>
     <string name="language_russian">Русский</string>
     <string name="language_english">English</string>
+    <string name="language_french">Français</string>
 
     <!-- Navigation -->
     <string name="nav_home">Главная</string>
