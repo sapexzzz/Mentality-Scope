@@ -10,7 +10,7 @@
 ### Сборка из командной строки
 
 ```bash
-cd /home/mentality/scripts/android_application
+cd ~/scripts/android_application
 
 # Debug APK
 JAVA_HOME=/opt/android-studio/jbr ./gradlew assembleDebug
