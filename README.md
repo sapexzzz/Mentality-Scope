@@ -163,7 +163,7 @@ On first launch, the app will request:
 
 ## 📄 Archive
 
-Previous documentation versions are stored in `old_data/v1.4.0/`.
+Previous documentation versions are stored in `old_data/v1.5.0/`.
 
 ---
 
