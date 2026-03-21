@@ -1,6 +1,6 @@
 # 🎯 Mentality Scope — Crosshair Overlay for Mobile Shooters
 
-> **Version:** 1.5.0 | **Date:** March 20, 2026 | **Min SDK:** 31 (Android 12+)
+> **Version:** 1.7.0 | **Date:** March 21, 2026 | **Min SDK:** 31 (Android 12+)
 
 ## 📱 Overview
 
@@ -13,7 +13,7 @@
 
 ---
 
-## ✨ Features v1.5.0
+## ✨ Features v1.7.0
 
 ### 🎨 Customizable Crosshair
 - **3 styles:** Dot (DOT), Crosshair (CROSSHAIR), Circle (CIRCLE)
