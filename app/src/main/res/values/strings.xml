@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mentality Scope</string>
+    <string name="app_description">Помощник прицеливания для мобильных шутеров</string>
+
+    <!-- Home Screen -->
+    <string name="home_activate_crosshair">Активировать прицел</string>
+    <string name="home_settings_title">Настройки</string>
+    <string name="home_size_label">Размер</string>
+    <string name="home_thickness_label">Толщина</string>
+    <string name="home_alpha_label">Прозрачность</string>
+    <string name="home_color_label">Цвет</string>
+    <string name="home_style_label">Стиль</string>
+    <string name="home_line_length_label">Длина линий</string>
+    <string name="home_gap_size_label">Зазор от центра</string>
+    <string name="home_color_white">Белый</string>
+    <string name="home_color_red">Красный</string>
+    <string name="home_color_green">Зеленый</string>
+    <string name="home_color_blue">Синий</string>
+    <string name="home_color_yellow">Желтый</string>
+    <string name="home_color_purple">Фиолетовый</string>
+
+    <!-- Style names -->
+    <string name="style_dot">Точка</string>
+    <string name="style_crosshair">Крестик</string>
+    <string name="style_circle">Круг</string>
+
+    <!-- Configs Screen -->
+    <string name="configs_presets_title">Встроенные пресеты</string>
+    <string name="configs_custom_title">Мои конфиги</string>
+    <string name="configs_save_button">Сохранить</string>
+    <string name="configs_empty">Нет сохраненных конфигов</string>
+    <string name="configs_save_dialog_title">Сохранить конфиг</string>
+    <string name="configs_save_dialog_hint">Имя конфига</string>
+    <string name="configs_load_button">Использовать</string>
+    <string name="configs_delete_title">Удалить конфиг?</string>
+    <string name="configs_delete_message">Это действие нельзя отменить.</string>
+    <string name="configs_save_error">Введите название конфига</string>
+    <string name="configs_export_button">Экспорт</string>
+    <string name="configs_export_select_title">Выбор конфигов</string>
+    <string name="configs_export_select_hint">Отметьте конфиги для экспорта</string>
+    <string name="configs_import_button">Импорт</string>
+    <string name="configs_export_filename">MentalityScope_configs</string>
+    <string name="configs_export_success">Конфиги сохранены</string>
+    <string name="configs_import_success">Импортировано: %d конфигов</string>
+    <string name="configs_import_error">Ошибка при импорте файла</string>
+
+    <!-- Actions -->
+    <string name="action_delete">Удалить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_save">Сохранить</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_basic_title">Основные</string>
+    <string name="settings_autostart_title">Автозапуск при старте</string>
+    <string name="settings_autostart_subtitle">Запускать сервис при включении телефона</string>
+    <string name="settings_cutout_title">Игнорировать вырез камеры</string>
+    <string name="settings_cutout_subtitle">Центрировать прицел по всему экрану, игнорируя вырез под фронтальную камеру</string>
+    <string name="settings_appearance_title">Внешний вид</string>
+    <string name="settings_theme_color">Цвет приложения</string>
+    <string name="settings_language_title">Язык</string>
+    <string name="settings_language_subtitle">Язык интерфейса</string>
+    <string name="settings_language_restart_hint">Перезапустите приложение для применения</string>
+    <string name="settings_restart_dialog_title">Перезапустить?</string>
+    <string name="settings_restart_dialog_message">Для применения языка нужно перезапустить приложение</string>
+    <string name="settings_restart_now">Перезапустить</string>
+    <string name="settings_restart_later">Позже</string>
+    <string name="settings_about_title">О приложении</string>
+    <string name="settings_version_label">Версия</string>
+    <string name="settings_version">1.5.0</string>
+    <string name="settings_developer">Разработчик</string>
+    <string name="settings_developer_name">Mentality Team</string>
+    <string name="settings_github_label">Исходный код</string>
+    <string name="settings_github_url">GitHub</string>
+    <string name="settings_data_title">Данные</string>
+
+    <!-- Dark mode options -->
+    <string name="settings_dark_mode_label">Тема оформления</string>
+    <string name="dark_mode_system">Системная</string>
+    <string name="dark_mode_light">Светлая</string>
+    <string name="dark_mode_dark">Тёмная</string>
+    <string name="dark_mode_amoled">AMOLED</string>
+
+    <!-- Circle crosshair extras -->
+    <string name="home_circle_center_cross">Центральный крест</string>
+    <string name="home_circle_cross_size">Размер крестика</string>
+
+    <!-- Language names -->
+    <string name="language_system">Системный</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_english">English</string>
+    <string name="language_french">Français</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_configs">Конфиги</string>
+    <string name="nav_settings">Настройки</string>
+
+    <!-- Notifications -->
+    <string name="notification_title">Mentality Scope</string>
+    <string name="notification_text">Прицел активен</string>
+    <string name="notification_hide">Скрыть прицел</string>
+    <string name="notification_show">Показать прицел</string>
+    <string name="notification_open_app">Открыть приложение</string>
+</resources>
