@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mentality Scope</string>
+    <string name="app_description">Assistant de visée pour les shooters mobiles</string>
+
+    <!-- Home Screen -->
+    <string name="home_activate_crosshair">Activer le réticule</string>
+    <string name="home_settings_title">Paramètres</string>
+    <string name="home_size_label">Taille</string>
+    <string name="home_thickness_label">Épaisseur</string>
+    <string name="home_alpha_label">Transparence</string>
+    <string name="home_color_label">Couleur</string>
+    <string name="home_style_label">Style</string>
+    <string name="home_line_length_label">Longueur des lignes</string>
+    <string name="home_gap_size_label">Écart du centre</string>
+    <string name="home_color_white">Blanc</string>
+    <string name="home_color_red">Rouge</string>
+    <string name="home_color_green">Vert</string>
+    <string name="home_color_blue">Bleu</string>
+    <string name="home_color_yellow">Jaune</string>
+    <string name="home_color_purple">Violet</string>
+
+    <!-- Style names -->
+    <string name="style_dot">Point</string>
+    <string name="style_crosshair">Réticule</string>
+    <string name="style_circle">Cercle</string>
+
+    <!-- Configs Screen -->
+    <string name="configs_presets_title">Préréglages intégrés</string>
+    <string name="configs_custom_title">Mes configs</string>
+    <string name="configs_save_button">Enregistrer</string>
+    <string name="configs_empty">Aucune config enregistrée</string>
+    <string name="configs_save_dialog_title">Enregistrer la config</string>
+    <string name="configs_save_dialog_hint">Nom de la config</string>
+    <string name="configs_load_button">Utiliser</string>
+    <string name="configs_delete_title">Supprimer la config ?</string>
+    <string name="configs_delete_message">Cette action est irréversible.</string>
+    <string name="configs_save_error">Entrez un nom de config</string>
+    <string name="configs_export_button">Exporter</string>
+    <string name="configs_export_select_title">Sélectionner les configs</string>
+    <string name="configs_export_select_hint">Cochez les configs à exporter</string>
+    <string name="configs_import_button">Importer</string>
+    <string name="configs_export_filename">MentalityScope_configs</string>
+    <string name="configs_export_success">Configs enregistrées</string>
+    <string name="configs_import_success">Importé : %d configs</string>
+    <string name="configs_import_error">Erreur lors de l\'importation</string>
+
+    <!-- Actions -->
+    <string name="action_delete">Supprimer</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_save">Enregistrer</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_basic_title">Général</string>
+    <string name="settings_autostart_title">Démarrage automatique</string>
+    <string name="settings_autostart_subtitle">Démarrer le service au démarrage du téléphone</string>
+    <string name="settings_cutout_title">Ignorer l\'encoche caméra</string>
+    <string name="settings_cutout_subtitle">Centrer le réticule sur tout l\'écran, en ignorant l\'encoche de la caméra frontale</string>
+    <string name="settings_appearance_title">Apparence</string>
+    <string name="settings_theme_color">Couleur de l\'application</string>
+    <string name="settings_language_title">Langue</string>
+    <string name="settings_language_subtitle">Langue de l\'interface</string>
+    <string name="settings_language_restart_hint">Redémarrez l\'application pour appliquer</string>
+    <string name="settings_restart_dialog_title">Redémarrer ?</string>
+    <string name="settings_restart_dialog_message">Un redémarrage est nécessaire pour appliquer la langue</string>
+    <string name="settings_restart_now">Redémarrer</string>
+    <string name="settings_restart_later">Plus tard</string>
+    <string name="settings_about_title">À propos</string>
+    <string name="settings_version_label">Version</string>
+    <string name="settings_version">1.7.0</string>
+    <string name="settings_developer">Développeur</string>
+    <string name="settings_developer_name">Mentality Team</string>
+    <string name="settings_github_label">Code source</string>
+    <string name="settings_github_url">GitHub</string>
+    <string name="settings_data_title">Données</string>
+
+    <!-- Dark mode options -->
+    <string name="settings_dark_mode_label">Thème d\'affichage</string>
+    <string name="dark_mode_system">Système</string>
+    <string name="dark_mode_light">Clair</string>
+    <string name="dark_mode_dark">Sombre</string>
+    <string name="dark_mode_amoled">AMOLED</string>
+
+    <!-- Circle crosshair extras -->
+    <string name="home_circle_center_cross">Croix centrale</string>
+    <string name="home_circle_cross_size">Taille de la croix</string>
+
+    <!-- Language names -->
+    <string name="language_system">Système</string>
+    <string name="language_russian">Russe</string>
+    <string name="language_english">Anglais</string>
+    <string name="language_french">Français</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_configs">Configs</string>
+    <string name="nav_settings">Paramètres</string>
+
+    <!-- Notifications -->
+    <string name="notification_title">Mentality Scope</string>
+    <string name="notification_text">Réticule actif</string>
+    <string name="notification_hide">Masquer le réticule</string>
+    <string name="notification_show">Afficher le réticule</string>
+    <string name="notification_open_app">Ouvrir l\'application</string>
+</resources>
